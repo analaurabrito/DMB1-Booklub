@@ -6,8 +6,19 @@ const styles = StyleSheet.create({
         height: '100%',
         backgroundColor: '#F0EDD4',
         alignItems: 'center',
-        justifyContent: 'baseline',
+        justifyContent: 'center',
         padding: '10px',
+    },
+
+    card: {
+        height: '70%',
+        width: '90%',
+        border: '15px', 
+        backgroundColor: 'beige',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        borderRadius: '10px',
+        paddingBottom: '20px',
     },
 
     cabecalho: {
@@ -15,7 +26,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         width: '85%',
-        marginTop: '10px',
+        marginTop: '30px',
     },
 
     textoCabecalho: {
@@ -28,19 +39,7 @@ const styles = StyleSheet.create({
     image: {
         width: '20px',
         height: '20px',
-        borderRadius: '20%',
-    },
-
-    card: {
-        height: '70%',
-        width: '90%',
-        marginTop: '30%',
-        border: '15px', 
-        alignItems: 'center',
-        justifyContent: 'flex-start',
         borderRadius: '10px',
-        paddingBottom: '20px',
-        backgroundColor: 'beige',
     },
 
     content: {
@@ -60,53 +59,34 @@ const styles = StyleSheet.create({
     },
 
     subtitulo:{
-        width: '260px',
+        width: '250px',
         paddingBottom: '10px',
         letterSpacing: '1px',
         color: '#181818',
         textAlign: 'justify',
     },
 
-    campoNomes: {
+    input: {
+        backgroundColor: '#A8A196',
+        width: '75%',
+        marginTop: '15px',
+        marginBottom: '15px',
+        color: '#454545',
+        fontSize: '14px',
+        borderRadius: '30px',
+        padding: '15px',
+        justifyContent: 'center',
+
+    },
+
+    botoes: {
         flexDirection: 'row',
         width: '75%',
         justifyContent: 'space-between',
         marginTop: '15px'
     },
 
-    input: {
-        backgroundColor: '#A8A196',
-        width: '75%',
-        marginBottom: '15px',
-        color: '#454545',
-        fontSize: '14px',
-        borderRadius: '30px',
-        padding: '15px',
-        justifyContent: 'center',
-
-    },
-
-    inputNomes: {
-        backgroundColor: '#A8A196',
-        width: '48%',
-        marginBottom: '15px',
-        color: '#454545',
-        fontSize: '14px',
-        borderRadius: '30px',
-        padding: '15px',
-        justifyContent: 'center',
-
-    },
-
-    obs: {
-        color: '#181818',
-        fontSize: '9px',
-        width: '70%',
-        marginBottom: '20px',
-        textAlign: 'justify',
-    },
-
-    botaoRegister: {
+    botaoSubmit: {
         backgroundColor: '#319997',
         width: '75%',
         height: '45px',

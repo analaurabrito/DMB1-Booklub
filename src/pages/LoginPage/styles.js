@@ -4,10 +4,29 @@ const styles = StyleSheet.create({
     container: {
         width: '100%',
         height: '100%',
-        backgroundColor: '#F0EDD4',
+        backgroundColor: 'beige',
         alignItems: 'center',
         justifyContent: 'baseline',
         padding: '10px',
+    },
+
+    logo: {
+        paddingTop: '20%',
+        fontStyle: 'italic',
+        fontSize: '25px',
+        fontWeight: '700',
+        letterSpacing: '-2px',
+    },
+
+    card: {
+        marginTop: '20%',
+        height: '70%',
+        width: '90%',
+        border: '15px', 
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        borderRadius: '10px',
+        paddingBottom: '20px',
     },
 
     cabecalho: {
@@ -15,41 +34,33 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         width: '85%',
-        marginTop: '10px',
+        marginTop: '50px',
     },
 
     textoCabecalho: {
-        color: '#000',
         fontSize: '10px',
-        fontStyle: 'italic',
-        fontWeight: '700',
+        fontWeight: '300',
     },
 
     image: {
         width: '20px',
         height: '20px',
-        borderRadius: '20%',
-    },
-
-    card: {
-        height: '70%',
-        width: '90%',
-        marginTop: '30%',
-        border: '15px', 
-        alignItems: 'center',
-        justifyContent: 'flex-start',
         borderRadius: '10px',
-        paddingBottom: '20px',
-        backgroundColor: 'beige',
     },
 
     content: {
         flex: 1,
         width: '100%',
         height: '100%',
+        marginTop: '20px',
         alignItems: 'center',
         justifyContent: 'center',
     }, 
+
+    imgHeader: {
+        width: '250px',
+        height: '300px',
+    },
 
     titulo:{
         paddingTop: '10px',
@@ -60,18 +71,11 @@ const styles = StyleSheet.create({
     },
 
     subtitulo:{
-        width: '260px',
+        width: '300px',
         paddingBottom: '10px',
         letterSpacing: '1px',
         color: '#181818',
-        textAlign: 'justify',
-    },
-
-    campoNomes: {
-        flexDirection: 'row',
-        width: '75%',
-        justifyContent: 'space-between',
-        marginTop: '15px'
+        textAlign: 'center',
     },
 
     input: {
@@ -86,29 +90,27 @@ const styles = StyleSheet.create({
 
     },
 
-    inputNomes: {
-        backgroundColor: '#A8A196',
-        width: '48%',
-        marginBottom: '15px',
-        color: '#454545',
-        fontSize: '14px',
-        borderRadius: '30px',
-        padding: '15px',
-        justifyContent: 'center',
-
+    botoes: {
+        flexDirection: 'row',
+        width: '75%',
+        justifyContent: 'space-between',
+        marginTop: '15px'
     },
 
-    obs: {
-        color: '#181818',
-        fontSize: '9px',
-        width: '70%',
-        marginBottom: '20px',
-        textAlign: 'justify',
+    botaoLogin: {
+        backgroundColor: '#EFB810',
+        width: '48%',
+        height: '45px',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: '30px',
+        fontSize: '18px',
+        marginTop: '15px',
     },
 
     botaoRegister: {
         backgroundColor: '#319997',
-        width: '75%',
+        width: '48%',
         height: '45px',
         alignItems: 'center',
         justifyContent: 'center',
@@ -118,9 +120,18 @@ const styles = StyleSheet.create({
     },
 
     textoBotao: {
-        fontWeight: '600',
+        fontWeight: '300',
         color: 'black',
         letterSpacing: '1px',
+    },
+
+    forgetPass: {
+        color: '#181818',
+        fontSize: '9px',
+        width: '70%',
+        marginBottom: '20px',
+        textAlign: 'center',
+        letterSpacing: '2px'
     },
   });
 
